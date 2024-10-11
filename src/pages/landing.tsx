@@ -1,4 +1,3 @@
-import React from "react";
 
 import TopNavbar from '../components/header'
 import CatchPhrase from '../components/catchPhrase';
@@ -8,11 +7,7 @@ import SkillsSection from '../components/skillsSection';
 import ExperienceSection from '../components/experienceSection';
 import ProjectsSection from '../components/projectsSection';
 import Footer from '../components/footer';
-import BlogSection from '../components/blogSection';
 import BlogButton from "../components/blogButton";
-
-
-
 import compass from '../assets/compass.png';
 import compass2 from '../assets/compass2.png';
 import crimpbyte from '../assets/crimpyte.png';
@@ -20,10 +15,6 @@ import szone from '../assets/szone.png';
 import scanner from '../assets/scanner.png';
 import rag from '../assets/rag.png';
 import elaborate from '../assets/elaborate.png';
-import { blogPosts } from '../contents/posts';
-
-
-
 function LandingPage(){
 
     const navLinks = [
